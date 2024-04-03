@@ -19,17 +19,19 @@ function About() {
       <Header />
       <div
         className={mainClasses + totalClasses}
-        style={{ backgroundImage: `url(/localsabomotors.jpg)` }}
+        style={{ backgroundImage: `url(/gruposamexa.png)` }}
       >
         <div className="mt-10 md:mt-28">
           <p className="font-sans text-xl  text-center sm:text-2xl font-bold sm:text-gray-100 self-center shrink-0 sm:shrink sm:mb-12">
-            En Sabo Motors le brindamos crédito en seminuevos auditados,
-            seriedad y confianza a un precio competitivo. Comprometidos con la
-            mejora continua y la protección de tu patrimonio. En Sabo Motor
-            ponemos los mejores autos de sus marcas confianza en su viaje
-            automotriz, brindando asesoramiento experto. Nos esforzamos por
-            construir relaciones a largo plazo con cada cliente, basadas en la
-            honestidad, la integridad y el respeto mutuo.
+            En <span className="text-yellow-600">GRUPO SAMEXA</span> nuestra
+            misión se centra en brindar acceso a vehículos de calidad a precios
+            accesibles. Entendemos que la movilidad es fundamental en la vida
+            moderna y que la adquisición de un automóvil puede ser una inversión
+            significativa. Es por eso que nos esforzamos por ofrecer una amplia
+            gama de opciones, desde autos seminuevos en excelentes condiciones
+            hasta aquellos que, tras sufrir percances, han sido recuperados y
+            reparados por nuestros expertos, garantizando así la seguridad y
+            fiabilidad de cada unidad que vendemos.
           </p>
         </div>
         <div className="flex flex-wrap self-center justify-center sm:mb-28">

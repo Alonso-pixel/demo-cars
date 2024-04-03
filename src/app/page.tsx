@@ -82,19 +82,19 @@ const VehicleCatalog: React.FC = () => {
         <div className="flex overflow-hidden relative flex-col justify-center items-center px-16 py-9 w-full min-h-[280px] max-md:px-5 max-md:max-w-full">
           <img
             loading="lazy"
-            src="./bannersabomotors2.jpg"
+            src="./gruposamexa_banner.jpg"
             alt=""
-            className="absolute inset-0 w-full h-full object-center"
+            className="absolute inset-0 w-full h-full object-center priority"
           />
-          <div className="flex relative flex-col px-8 pt-8 pb-8 max-md:px-5 max-md:max-w-full">
-            <h1 className="text-gray-300 self-center text-6xl font-bold uppercase leading-[54.45px] max-md:max-w-full max-md:text-4xl">
+          {/* <div className="flex relative flex-col px-8 pt-8 pb-8 max-md:px-5 max-md:max-w-full">
+            <h1 className="text-gray-900 self-center text-6xl font-bold uppercase leading-[54.45px] max-md:max-w-full max-md:text-4xl">
               Catálogo Sabo Motors
-            </h1>
-            <p className="mt-6 text-base leading-6 max-md:max-w-full">
+            </h1> 
+            <p className="mt-6 text-gray-900 font-bold text-xl leading-6 max-md:max-w-full">
               Revisa el catálogo y descubre todos los detalles de nuestra gama
-              de vehículos Sabo Motors.
+              de vehículos <span className="font-extrabold">GRUPO SAMEXA </span>
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
       <nav className="flex flex-wrap justify-center items-center px-16 mt-8 w-full text-xl font-bold leading-5 text-center text-black text-opacity-40 max-md:px-5 max-md:max-w-full">
@@ -113,7 +113,7 @@ const VehicleCatalog: React.FC = () => {
               }}
             >
               {" "}
-              Vehículos particulares
+              Vehículos seminuevos
             </Button>
           </div>
           <Button
@@ -129,7 +129,7 @@ const VehicleCatalog: React.FC = () => {
             }}
           >
             {" "}
-            Vehículos utilitarios
+            Vehículos accidentados
           </Button>{" "}
           <div className="self-stretch my-auto leading-[99%]">
             <Button
@@ -145,7 +145,7 @@ const VehicleCatalog: React.FC = () => {
               }}
             >
               {" "}
-              Vehículos híbridos
+              Vehículos restaurados
             </Button>
           </div>
         </div>
@@ -166,7 +166,7 @@ const VehicleCatalog: React.FC = () => {
                         <VehicleCard {...vehicleCards[1]} />
                         <Link
                           href={
-                            "https://www.google.com/maps/uv?pb=!1s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c!3m1!7e115!4s%2Fmaps%2Fplace%2Fautomars%2Bixtapaluca%2F%4019.3118736%2C-98.8994787%2C3a%2C75y%2C300.56h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sMMYuIFsFOnEQUyYv7O42wg*212e0*214m2*213m1*211s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c%3Fsa%3DX%26ved%3D2ahUKEwjf7Nr3y5qFAxUPLkQIHTuxDhQQpx96BAgQEAA!5sautomars%20ixtapaluca%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipP2cg_b9zStRqjtxUHEhhBAOO7mYns9hW_M_z6a&hl=en&ved=1t%3A206134&ictx=111"
+                            "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
                           }
                           className="self-start py-px mt-6 text-xs leading-3 text-center text-black border-b-2 border-yellow-400 border-solid"
                         >
@@ -184,7 +184,7 @@ const VehicleCatalog: React.FC = () => {
                             <VehicleCard {...vehicleCards[2]} />
                             <Link
                               href={
-                                "https://www.google.com/maps/uv?pb=!1s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c!3m1!7e115!4s%2Fmaps%2Fplace%2Fautomars%2Bixtapaluca%2F%4019.3118736%2C-98.8994787%2C3a%2C75y%2C300.56h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sMMYuIFsFOnEQUyYv7O42wg*212e0*214m2*213m1*211s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c%3Fsa%3DX%26ved%3D2ahUKEwjf7Nr3y5qFAxUPLkQIHTuxDhQQpx96BAgQEAA!5sautomars%20ixtapaluca%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipP2cg_b9zStRqjtxUHEhhBAOO7mYns9hW_M_z6a&hl=en&ved=1t%3A206134&ictx=111"
+                                "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
                               }
                               className="justify-center py-px mt-6 text-xs leading-3 text-center border-b-2 border-yellow-400 border-solid"
                             >
@@ -198,7 +198,7 @@ const VehicleCatalog: React.FC = () => {
                             <VehicleCard {...vehicleCards[3]} />
                             <Link
                               href={
-                                "https://www.google.com/maps/uv?pb=!1s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c!3m1!7e115!4s%2Fmaps%2Fplace%2Fautomars%2Bixtapaluca%2F%4019.3118736%2C-98.8994787%2C3a%2C75y%2C300.56h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sMMYuIFsFOnEQUyYv7O42wg*212e0*214m2*213m1*211s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c%3Fsa%3DX%26ved%3D2ahUKEwjf7Nr3y5qFAxUPLkQIHTuxDhQQpx96BAgQEAA!5sautomars%20ixtapaluca%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipP2cg_b9zStRqjtxUHEhhBAOO7mYns9hW_M_z6a&hl=en&ved=1t%3A206134&ictx=111"
+                                "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
                               }
                               className="justify-center py-px mt-6 text-xs leading-3 text-center border-b-2 border-yellow-400 border-solid"
                             >
@@ -217,7 +217,7 @@ const VehicleCatalog: React.FC = () => {
                     <VehicleCard {...vehicleCards[4]} />
                     <Link
                       href={
-                        "https://www.google.com/maps/uv?pb=!1s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c!3m1!7e115!4s%2Fmaps%2Fplace%2Fautomars%2Bixtapaluca%2F%4019.3118736%2C-98.8994787%2C3a%2C75y%2C300.56h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sMMYuIFsFOnEQUyYv7O42wg*212e0*214m2*213m1*211s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c%3Fsa%3DX%26ved%3D2ahUKEwjf7Nr3y5qFAxUPLkQIHTuxDhQQpx96BAgQEAA!5sautomars%20ixtapaluca%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipP2cg_b9zStRqjtxUHEhhBAOO7mYns9hW_M_z6a&hl=en&ved=1t%3A206134&ictx=111"
+                        "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
                       }
                       className="justify-center py-px mt-6 text-xs text-center border-b-2 border-yellow-400 border-solid"
                     >
@@ -226,7 +226,7 @@ const VehicleCatalog: React.FC = () => {
                     <VehicleCard {...vehicleCards[5]} />
                     <Link
                       href={
-                        "https://www.google.com/maps/uv?pb=!1s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c!3m1!7e115!4s%2Fmaps%2Fplace%2Fautomars%2Bixtapaluca%2F%4019.3118736%2C-98.8994787%2C3a%2C75y%2C300.56h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sMMYuIFsFOnEQUyYv7O42wg*212e0*214m2*213m1*211s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c%3Fsa%3DX%26ved%3D2ahUKEwjf7Nr3y5qFAxUPLkQIHTuxDhQQpx96BAgQEAA!5sautomars%20ixtapaluca%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipP2cg_b9zStRqjtxUHEhhBAOO7mYns9hW_M_z6a&hl=en&ved=1t%3A206134&ictx=111"
+                        "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
                       }
                       className="justify-center py-px mt-6 text-xs text-center border-b-2 border-yellow-400 border-solid"
                     >
@@ -253,7 +253,7 @@ const VehicleCatalog: React.FC = () => {
             <h3 className="text-sm">Enganche desde $6000</h3>
             <Link
               href={
-                "https://www.google.com/maps/uv?pb=!1s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c!3m1!7e115!4s%2Fmaps%2Fplace%2Fautomars%2Bixtapaluca%2F%4019.3118736%2C-98.8994787%2C3a%2C75y%2C300.56h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sMMYuIFsFOnEQUyYv7O42wg*212e0*214m2*213m1*211s0x85ce1fc4f9f3f5d9%3A0x41de5a480815b76c%3Fsa%3DX%26ved%3D2ahUKEwjf7Nr3y5qFAxUPLkQIHTuxDhQQpx96BAgQEAA!5sautomars%20ixtapaluca%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipP2cg_b9zStRqjtxUHEhhBAOO7mYns9hW_M_z6a&hl=en&ved=1t%3A206134&ictx=111"
+                "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
               }
               className="justify-center py-px mt-5 text-xs leading-3 text-center text-black border-b-2 border-yellow-400 border-solid max-md:mt-10"
             >
@@ -301,7 +301,7 @@ const VehicleCatalog: React.FC = () => {
             <div className="max-md:max-w-full">Cookies</div>
           </div>
           <div className="my-auto text-xs font-bold leading-3 capitalize">
-            © Sabo Motors 2024
+            © GRUPO SAMEXA 2024
           </div>
         </div>
       </footer>
