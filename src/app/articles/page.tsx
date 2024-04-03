@@ -61,12 +61,7 @@ function Articles() {
                 height={200}
                 className="rounded"
               ></Image>
-              <Link
-                className="flex flex-col px-2"
-                href={
-                  "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2014/operators/MY14_M-Class_Operator.pdf"
-                }
-              >
+              <Link className="flex flex-col px-2" href={"/buy"}>
                 <Button variant="link" className="w-fit self-center">
                   Alma de Vento{" "}
                 </Button>
@@ -89,12 +84,7 @@ function Articles() {
                 height={200}
                 className="rounded"
               ></Image>
-              <Link
-                className="flex flex-col px-2"
-                href={
-                  "https://www.mbusa.com/content/dam/mb-nafta/us/owners/manuals/2014/operators/MY14_M-Class_Operator.pdf"
-                }
-              >
+              <Link className="flex flex-col px-2" href={"/buy"}>
                 <Button variant="link" className="w-fit self-center">
                   Marco Radiador{" "}
                 </Button>
