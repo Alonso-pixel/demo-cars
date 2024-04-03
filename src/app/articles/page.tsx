@@ -39,7 +39,10 @@ function Articles() {
                 className="rounded"
               ></Image>
               <Link href={"/buy"} className="flex flex-col px-2">
-                <Button variant="link" className="w-fit self-center">
+                <Button
+                  variant="destructive"
+                  className="w-fit self-center bg-green-700"
+                >
                   Rejilla Negra Vento{" "}
                 </Button>
               </Link>{" "}
@@ -62,7 +65,10 @@ function Articles() {
                 className="rounded"
               ></Image>
               <Link className="flex flex-col px-2" href={"/buy"}>
-                <Button variant="link" className="w-fit self-center">
+                <Button
+                  variant="destructive"
+                  className="w-fit self-center bg-green-700"
+                >
                   Alma de Vento{" "}
                 </Button>
               </Link>
@@ -85,7 +91,10 @@ function Articles() {
                 className="rounded"
               ></Image>
               <Link className="flex flex-col px-2" href={"/buy"}>
-                <Button variant="link" className="w-fit self-center">
+                <Button
+                  variant="destructive"
+                  className="w-fit self-center bg-green-700"
+                >
                   Marco Radiador{" "}
                 </Button>
               </Link>
