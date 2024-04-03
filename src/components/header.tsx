@@ -12,7 +12,7 @@ function Header() {
         <div className="self-center">
           <Link href={"/"}>
             <Image
-              src="/gruposamexalogo-removebg-preview.png"
+              src="/favicon.png"
               alt="Logo"
               className="rounded priority"
               width={120}
