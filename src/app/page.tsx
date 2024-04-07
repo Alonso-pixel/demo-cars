@@ -82,19 +82,19 @@ const VehicleCatalog: React.FC = () => {
         <div className="flex overflow-hidden relative flex-col justify-center items-center px-16 py-9 w-full min-h-[280px] max-md:px-5 max-md:max-w-full">
           <img
             loading="lazy"
-            src="./gruposamexa_banner.jpg"
+            src="./bannersabomotors2.jpg"
             alt=""
-            className="absolute inset-0 w-full h-full object-center priority"
+            className="absolute inset-0 w-full h-full object-center"
           />
-          {/* <div className="flex relative flex-col px-8 pt-8 pb-8 max-md:px-5 max-md:max-w-full">
-            <h1 className="text-gray-900 self-center text-6xl font-bold uppercase leading-[54.45px] max-md:max-w-full max-md:text-4xl">
+          <div className="flex relative flex-col px-8 pt-8 pb-8 max-md:px-5 max-md:max-w-full">
+            <h1 className="text-gray-300 self-center text-6xl font-bold uppercase leading-[54.45px] max-md:max-w-full max-md:text-4xl">
               Catálogo Sabo Motors
-            </h1> 
-            <p className="mt-6 text-gray-900 font-bold text-xl leading-6 max-md:max-w-full">
+            </h1>
+            <p className="mt-6 text-base leading-6 max-md:max-w-full">
               Revisa el catálogo y descubre todos los detalles de nuestra gama
-              de vehículos <span className="font-extrabold">GRUPO SAMEXA </span>
+              de vehículos Sabo Motors.
             </p>
-          </div> */}
+          </div>
         </div>
       </section>
       <nav className="flex flex-wrap justify-center items-center px-16 mt-8 w-full text-xl font-bold leading-5 text-center text-black text-opacity-40 max-md:px-5 max-md:max-w-full">
@@ -113,7 +113,7 @@ const VehicleCatalog: React.FC = () => {
               }}
             >
               {" "}
-              Vehículos seminuevos
+              Vehículos particulares
             </Button>
           </div>
           <Button
@@ -129,7 +129,7 @@ const VehicleCatalog: React.FC = () => {
             }}
           >
             {" "}
-            Vehículos accidentados
+            Vehículos utilitarios
           </Button>{" "}
           <div className="self-stretch my-auto leading-[99%]">
             <Button
@@ -145,7 +145,7 @@ const VehicleCatalog: React.FC = () => {
               }}
             >
               {" "}
-              Vehículos restaurados
+              Vehículos híbridos
             </Button>
           </div>
         </div>
@@ -166,7 +166,7 @@ const VehicleCatalog: React.FC = () => {
                         <VehicleCard {...vehicleCards[1]} />
                         <Link
                           href={
-                            "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
+                            "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
                           }
                           className="self-start py-px mt-6 text-xs leading-3 text-center text-black border-b-2 border-yellow-400 border-solid"
                         >
@@ -184,7 +184,7 @@ const VehicleCatalog: React.FC = () => {
                             <VehicleCard {...vehicleCards[2]} />
                             <Link
                               href={
-                                "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
+                                "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
                               }
                               className="justify-center py-px mt-6 text-xs leading-3 text-center border-b-2 border-yellow-400 border-solid"
                             >
@@ -198,7 +198,7 @@ const VehicleCatalog: React.FC = () => {
                             <VehicleCard {...vehicleCards[3]} />
                             <Link
                               href={
-                                "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
+                                "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
                               }
                               className="justify-center py-px mt-6 text-xs leading-3 text-center border-b-2 border-yellow-400 border-solid"
                             >
@@ -217,7 +217,7 @@ const VehicleCatalog: React.FC = () => {
                     <VehicleCard {...vehicleCards[4]} />
                     <Link
                       href={
-                        "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
+                        "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
                       }
                       className="justify-center py-px mt-6 text-xs text-center border-b-2 border-yellow-400 border-solid"
                     >
@@ -226,7 +226,7 @@ const VehicleCatalog: React.FC = () => {
                     <VehicleCard {...vehicleCards[5]} />
                     <Link
                       href={
-                        "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
+                        "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
                       }
                       className="justify-center py-px mt-6 text-xs text-center border-b-2 border-yellow-400 border-solid"
                     >
@@ -253,7 +253,7 @@ const VehicleCatalog: React.FC = () => {
             <h3 className="text-sm">Enganche desde $6000</h3>
             <Link
               href={
-                "https://www.google.com/maps/contrib/104616801109576659037/photos/@19.3781689,-99.1428425,3a,75y,90t/data=!3m7!1e2!3m5!1sAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW!2e10!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlR3R5ba22HSe_dO68xlW56IY470pfvXknVHxW%3Dw365-h273-k-no!7i4032!8i3024!4m3!8m2!3m1!1e1?entry=ttu"
+                "https://www.facebook.com/seminuevossabomotors/photos?locale=es_LA"
               }
               className="justify-center py-px mt-5 text-xs leading-3 text-center text-black border-b-2 border-yellow-400 border-solid max-md:mt-10"
             >
@@ -301,7 +301,7 @@ const VehicleCatalog: React.FC = () => {
             <div className="max-md:max-w-full">Cookies</div>
           </div>
           <div className="my-auto text-xs font-bold leading-3 capitalize">
-            © GRUPO SAMEXA 2024
+            © Sabo Motors 2024
           </div>
         </div>
       </footer>
